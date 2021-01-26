@@ -16,7 +16,7 @@ categories: 통계
 
 동전을 던져서 두번 연속 앞면이 나오면 이 동전이 특별한가? 라는 물음에 대해 p-value를 계산하면 통계적으로 그렇다 또는 아니다라고 답할 수 있다.
 
-![pvalue2.PNG](https://github.com/hoon-923/hoon-923.github.io/blob/master/_images/pvalue2.PNG?raw=true)
+![pvalue2.PNG](https://github.com/hoon-923/hoon-923.github.io/blob/main/_images/statistics/statquest/p_value/pvalue2.PNG?raw=true)
 
 위의 그림을 보면 동전을 두번 던졌을 시 모든 경우의 수 와 확률을 알 수 있다. p-value를 계산하기 전 p-value가 어떠한 값들로 구성되어 있는지 알아야 한다.
 
@@ -36,13 +36,13 @@ p-value를 이용해 통계적으로 검증하기 위해서 '이 동전이 일�
 
 사람의 키와 같은 연속형 변수에 대한 확률과 p-value를 계산할때는 분포를 사용한다.
 
-![pvalue3.PNG](https://github.com/hoon-923/hoon-923.github.io/blob/master/_images/pvalue3.PNG?raw=true)
+![pvalue3.PNG](https://github.com/hoon-923/hoon-923.github.io/blob/main/_images/statistics/statquest/p_value/pvalue3.PNG?raw=true)
 
 곡선 아래의 영역(넓이)는 어떤 사람의 키가 해당 범위 안에 들어갈 확률을 의미한다. 위의 1996년에 측정한 브라질 여성의 키 예시에서는 어떤 사람의 키가 142cm와 169cm 사이에 위치할 확률이 95%이라는 것을 의미한다. 또한 2.5%의 확률로 키가 169cm 보다 클 것이고 마찬가지로, 2.5%의 확률로 142cm 보다 작을 것이다.
 
 분포를 통해 p-value를 계산하려면, 곡선 아래 영역의 확률(%)을 더하면 된다. 위의 예시에서 키가 142cm로 측정된 사람이 평균 값이 155.7인 분포로부터 나온 것인지에 대한 의문을 p-value를 통해 구할 수 있다. 이 경우 귀무가설은 위의 질문에 대해 그렇다일 것이고 이를 p-value를 통해 기각 또는 채택할 수 있다.
 
-![pvalue4.PNG](https://github.com/hoon-923/hoon-923.github.io/blob/master/_images/pvalue4.PNG?raw=true)
+![pvalue4.PNG](https://github.com/hoon-923/hoon-923.github.io/blob/main/_images/statistics/statquest/p_value/pvalue4.PNG?raw=true)
 
 p-value 구성 요소들을 생각해보면 142cm 이하인 값만큼 169cm 이상인 값들도 동일하거나 더 극단적인 값으로 간주되기 때문에 p-value값에 더해주어야 한다. 즉, p-value는 0.025 + 0.025로 결과적으로 0.05이고 '키가 142cm인 사람이 위의 분포로부터 나왔다'라는 가설에 대한 p-value는 0.05이다. 일반적으로 유의성을 검정하는 p-value 기준값이 0.05이므로 귀무가설을 기각하기도 채택하기도 애매한 상황이다. 만약 142cm이 아닌 141cm 이였다면 최종적인 p-value는 0.032였을 것이고 이 경우에는 귀무 가설을 기각할 수 있다.
 
@@ -50,7 +50,7 @@ p-value 구성 요소들을 생각해보면 142cm 이하인 값만큼 169cm 이�
 
 #### One-Sided p-values의 위험성
 
-![pvalue5.PNG](https://github.com/hoon-923/hoon-923.github.io/blob/master/_images/pvalue5.PNG?raw=true)
+![pvalue5.PNG](https://github.com/hoon-923/hoon-923.github.io/blob/main/_images/statistics/statquest/p_value/pvalue5.PNG?raw=true)
 
 위의 예시는 사람들이 특정 질병으로부터 회복하는데 걸리는 시간에 대한 분포이다. 이 상황에서 신약을 개발해 회복하는데 시간을 단축시키는지를 확인하고 싶은 상황이다. 
 

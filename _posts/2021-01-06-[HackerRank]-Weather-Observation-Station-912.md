@@ -13,7 +13,7 @@ tag: sql
 
 [HackerRank 사이트](https://www.hackerrank.com/dashboard)에 있는 Sql Basic Select - Weather Observation Station 9~12 문제 풀이입니다.
 
-![HackerRank_table1.PNG](https://github.com/hoon-923/hoon-923.github.io/blob/master/_images/HackerRank_table1.PNG?raw=true)
+![HackerRank_table1.PNG](https://github.com/hoon-923/hoon-923.github.io/blob/main/_images/SQL/HackerRank/HackerRank_table1.PNG?raw=true)
 
 모든 문제는 위 `STATION` 테이블을 바탕으로 주어집니다.
 

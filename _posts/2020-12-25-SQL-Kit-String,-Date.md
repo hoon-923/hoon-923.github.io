@@ -19,7 +19,7 @@ tag: sql
 4. 오랜 기간 보호한 동물(2)
 5. DATETIME에서 DATE로 형 변환
 
-![프로그래머스table3.PNG](https://github.com/hoon-923/hoon-923.github.io/blob/master/_images/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4table3.PNG?raw=true)
+![프로그래머스table3.PNG](https://github.com/hoon-923/hoon-923.github.io/blob/main/_images/SQL/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4table3.PNG?raw=true)
 
 문제 1~3, 5는 좌측의  `ANIMAL_INS` 테이블을 통해 주어지고 문제 4는 좌측의  `ANIMAL_INS` 테이블과 우측의  `ANIMAL_OUTS` 테이블을 통해 주어집니다.
 

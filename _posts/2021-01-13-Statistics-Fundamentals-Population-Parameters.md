@@ -14,15 +14,15 @@ Population Parameters(모수)에 대해 히스토그램과 분포를 이용해�
 
 #### 샘플과 모집단
 
-![Population_Parameters1.PNG](https://github.com/hoon-923/hoon-923.github.io/blob/master/_images/Population_Parameters1.PNG?raw=true)
+![Population_Parameters1.PNG](https://github.com/hoon-923/hoon-923.github.io/blob/main/_images/statistics/statquest/Population_Parameters/Population_Parameters1.PNG?raw=true)
 
 위의 그림은 Gene X의 5개 관측치이다. 만약 값들의 일부가 아닌 모든 값을 관측한다면 다음과 같은 그림이 그려질 것이다(모든 점을 표현하지 못했지만 편의상 2400억개의 점이라 가정).
 
-![Population_Parameters2.PNG](https://github.com/hoon-923/hoon-923.github.io/blob/master/_images/Population_Parameters2.PNG?raw=true)
+![Population_Parameters2.PNG](https://github.com/hoon-923/hoon-923.github.io/blob/main/_images/statistics/statquest/Population_Parameters/Population_Parameters2.PNG?raw=true)
 
 위와 같이 모든 값들을 구하게되면 이를 통해 우리는 모집단에 대한 히스토그램과 분포를 알 수 있다. 또한 이를 통해서 Gene X의 값 하나를 선택했을 때 30 이상인 값일 확률을 구할 수 있다.
 
-![Population_Parameters3.PNG](https://github.com/hoon-923/hoon-923.github.io/blob/master/_images/Population_Parameters3.PNG?raw=true)
+![Population_Parameters3.PNG](https://github.com/hoon-923/hoon-923.github.io/blob/main/_images/statistics/statquest/Population_Parameters/Population_Parameters3.PNG?raw=true)
 
 모집단은 모든 값들을 관측한 결과이기 때문에 모집단을 나타내는 곡선의 평균과 표준편차는 **모수**라고 불린다.
 
@@ -32,7 +32,7 @@ Population Parameters(모수)에 대해 히스토그램과 분포를 이용해�
 
 위와 같이 모든 값들을 관측하면 제일 좋겠지만 현실적으로는 시간과 비용의 문제때문에 모든 값들을 관측하는 것이 불가능하다. 그래서 대부분의 경우 표본집단을 사용하여 모수를 추정한다.
 
-![Population_Parameters4.PNG](https://github.com/hoon-923/hoon-923.github.io/blob/master/_images/Population_Parameters4.PNG?raw=true)
+![Population_Parameters4.PNG](https://github.com/hoon-923/hoon-923.github.io/blob/main/_images/statistics/statquest/Population_Parameters/Population_Parameters4.PNG?raw=true)
 
 이와 같이 5개의 관측치를  통해 모수를 추정해보는 과정을 생각해볼 수 있다. 모수를 알고 싶은 이유는 실험에서 도출된 결과가 모집단을 모사할 수 있는지 알기 위해서 이다. 5개의 또 다른 관측치가 있다고 할 때 추정된 모수를 이용해서 실험(위에서 예시를 든 30 이상 값인 확률이 일종의 실험이 될 수 있다)에 대한 결과들에 대한 근거로 사용하기 위함이다. 
 

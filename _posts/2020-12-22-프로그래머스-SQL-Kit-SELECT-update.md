@@ -21,7 +21,7 @@ tag: sql DB
 6. 여러 기준으로 정렬하기
 7. 상위 n개 레코드
 
-![프로그래머스table2.PNG](https://github.com/hoon-923/hoon-923.github.io/blob/master/_images/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4table2.PNG?raw=true)
+![프로그래머스table2.PNG](https://github.com/hoon-923/hoon-923.github.io/blob/main/_images/SQL/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4table2.PNG?raw=true)
 
 모든 문제는 다음의 `ANIMAL_INS` 테이블을 바탕으로 주어집니다.
 

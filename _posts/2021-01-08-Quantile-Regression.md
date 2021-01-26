@@ -30,7 +30,7 @@ Quantile Regression을 사용하는 대표적인 두 가지 경우는 다음과 
 
 여기서 Prediction Interval은 미래의 값들의 어떠한 범위에 올지에 대해 관심을 갖는 Interval 입니다. 반면 흔히 알고 있는 Confidence Interval은 모수가 어떤 범위에 있는지 확률적으로 보여주는 Interval 입니다. Heteroskedasticity에 대해서는 다음 시각화 자료를 활용해 설명 하겠습니다.
 
-![이분산성_등분산성.PNG](https://github.com/hoon-923/hoon-923.github.io/blob/master/_images/%EC%9D%B4%EB%B6%84%EC%82%B0%EC%84%B1_%EB%93%B1%EB%B6%84%EC%82%B0%EC%84%B1.PNG?raw=true)
+![이분산성_등분산성.PNG](https://github.com/hoon-923/hoon-923.github.io/blob/main/_images/%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D/Quantile_Regression/%EC%9D%B4%EB%B6%84%EC%82%B0%EC%84%B1_%EB%93%B1%EB%B6%84%EC%82%B0%EC%84%B1.PNG?raw=true)
 
 Heteroskedasticity(이분산성)와 반대되는 개념으로 Homoscedasticity(등분산성)이 있습니다. 모집단에서 각 독립변수에 대해 종속변수의 값들은 정규분포를 이루는데 이러한 각 정규분포의 표준편차가 전부같은 경우 이를 Homoscedasticity(등분산성)이라고 합니다. 반면 각 독립변수의 값이 증가할수록 표준편차가 증가하는 경우 이를Heteroskedasticity(이분산성)이라고 합니다.
 
@@ -38,5 +38,5 @@ Heteroskedasticity(이분산성)와 반대되는 개념으로 Homoscedasticity(�
 
 마지막으로는 제가 현재 제가 참가하고 있는 [DACON 공모전 [태양광 발전량 예측 AI 경진대회]](https://dacon.io/competitions/official/235680/overview/)에서 실제로 Quantile Regression을 진행한 결과의 일부입니다.
 
-![QR.PNG](https://github.com/hoon-923/hoon-923.github.io/blob/master/_images/QR.PNG?raw=true)
+![QR.PNG](https://github.com/hoon-923/hoon-923.github.io/blob/main/_images/%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D/Quantile_Regression/QR.PNG?raw=true)
 

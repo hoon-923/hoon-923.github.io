@@ -11,7 +11,7 @@ tag: sql
 
 Amber's conglomerate corporation just acquired some new companies. Each of the companies follows this hierarchy:
 
-![HackerRank_New_Companies.PNG](https://github.com/hoon-923/hoon-923.github.io/blob/master/_images/HackerRank_New_Companies.PNG?raw=true)
+![HackerRank_New_Companies.PNG](https://github.com/hoon-923/hoon-923.github.io/blob/main/_images/SQL/HackerRank/HackerRank_New_Companies.PNG?raw=true)
 
 Given the table schemas below, write a query to print the *company_code*, *founder* name, total number of *lead* managers, total number of *senior* managers, total number of *managers*, and total number of *employees*. Order your output by ascending *company_code*.
 
@@ -28,23 +28,23 @@ The following tables contain company data:
 
 * *Company:* The *company_code* is the code of the company and *founder* is the founder of the company.
 
-![HackerRank_Company.PNG](https://github.com/hoon-923/hoon-923.github.io/blob/master/_images/HackerRank_Company.PNG?raw=true)
+![HackerRank_Company.PNG](https://github.com/hoon-923/hoon-923.github.io/blob/main/_images/SQL/HackerRank/HackerRank_Company.PNG?raw=true)
 
 * *Lead_Manager:* The *lead_manager_code* is the code of the lead manager, and the *company_code* is the code of the working company.
 
-![HackerRank_Lead_Manager.PNG](https://github.com/hoon-923/hoon-923.github.io/blob/master/_images/HackerRank_Lead_Manager.PNG?raw=true)
+![HackerRank_Lead_Manager.PNG](https://github.com/hoon-923/hoon-923.github.io/blob/main/_images/SQL/HackerRank/HackerRank_Lead_Manager.PNG?raw=true)
 
 * *Senior_Manager:* The *senior_manager_code* is the code of the senior manager, the *lead_manager_code* is the code of its lead manager, and the *company_code* is the code of the working company.
 
-![HackerRank_Senior_Manager.PNG](https://github.com/hoon-923/hoon-923.github.io/blob/master/_images/HackerRank_Senior_Manager.PNG?raw=true)
+![HackerRank_Manager.PNG](https://github.com/hoon-923/hoon-923.github.io/blob/main/_images/SQL/HackerRank/HackerRank_Manager.PNG?raw=true)
 
 * *Manager:* The *manager_code* is the code of the manager, the *senior_manager_code* is the code of its senior manager, the *lead_manager_code* is the code of its lead manager, and the *company_code* is the code of the working company.
 
-![HackerRank_Manager.PNG](https://github.com/hoon-923/hoon-923.github.io/blob/master/_images/HackerRank_Manager.PNG?raw=true)
+![HackerRank_Manager.PNG](https://github.com/hoon-923/hoon-923.github.io/blob/main/_images/SQL/HackerRank/HackerRank_Manager.PNG?raw=true)
 
 * *Employee:* The *employee_code* is the code of the employee, the *manager_code* is the code of its manager, the *senior_manager_code* is the code of its senior manager, the *lead_manager_code* is the code of its lead manager, and the *company_code* is the code of the working company.
 
-![HackerRank_Employee.PNG](https://github.com/hoon-923/hoon-923.github.io/blob/master/_images/HackerRank_Employee.PNG?raw=true)
+![HackerRank_Employee.PNG](https://github.com/hoon-923/hoon-923.github.io/blob/main/_images/SQL/HackerRank/HackerRank_Employee.PNG?raw=true)
 
 ----
 
@@ -52,23 +52,23 @@ The following tables contain company data:
 
 Company Table: 
 
-![Sample_1.PNG](https://github.com/hoon-923/hoon-923.github.io/blob/master/_images/Sample_1.PNG?raw=true)
+![Sample_1.PNG](https://github.com/hoon-923/hoon-923.github.io/blob/main/_images/SQL/HackerRank/Sample_1.PNG?raw=true)
 
 Lead_Manager Table: 
 
-![Sample_2.PNG](https://github.com/hoon-923/hoon-923.github.io/blob/master/_images/Sample_2.PNG?raw=true)
+![Sample_2.PNG](https://github.com/hoon-923/hoon-923.github.io/blob/main/_images/SQL/HackerRank/Sample_2.PNG?raw=true)
 
  Senior_Manager Table: 
 
-![Sample_3.PNG](https://github.com/hoon-923/hoon-923.github.io/blob/master/_images/Sample_3.PNG?raw=true)
+![Sample_3.PNG](https://github.com/hoon-923/hoon-923.github.io/blob/main/_images/SQL/HackerRank/Sample_3.PNG?raw=true)
 
  Manager Table: 
 
-![Sample_4.PNG](https://github.com/hoon-923/hoon-923.github.io/blob/master/_images/Sample_4.PNG?raw=true)
+![Sample_4.PNG](https://github.com/hoon-923/hoon-923.github.io/blob/main/_images/SQL/HackerRank/Sample_4.PNG?raw=true)
 
  Employee Table: 
 
-![Sample_5.PNG](https://github.com/hoon-923/hoon-923.github.io/blob/master/_images/Sample_5.PNG?raw=true)
+![Sample_5.PNG](https://github.com/hoon-923/hoon-923.github.io/blob/main/_images/SQL/HackerRank/Sample_5.PNG?raw=true)
 
 **Sample Output**
 

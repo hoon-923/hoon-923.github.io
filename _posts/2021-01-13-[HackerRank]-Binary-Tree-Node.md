@@ -13,7 +13,7 @@ tag: sql
 
 You are given a table, *BST*, containing two columns: *N* and *P,* where *N* represents the value of a node in *Binary Tree*, and *P* is the parent of *N*.
 
-![HackerRank_BTN1.PNG](https://github.com/hoon-923/hoon-923.github.io/blob/master/_images/HackerRank_BTN1.PNG?raw=true)
+![HackerRank_BTN1.PNG](https://github.com/hoon-923/hoon-923.github.io/blob/main/_images/SQL/HackerRank/HackerRank_BTN1.PNG?raw=true)
 
 Write a query to find the node type of *Binary Tree* ordered by the value of the node. Output one of the following for each node:
 
@@ -23,7 +23,7 @@ Write a query to find the node type of *Binary Tree* ordered by the value of the
 
 **Sample Input**
 
-![HackerRank_BTN2.PNG](https://github.com/hoon-923/hoon-923.github.io/blob/master/_images/HackerRank_BTN2.PNG?raw=true)
+![HackerRank_BTN2.PNG](https://github.com/hoon-923/hoon-923.github.io/blob/main/_images/SQL/HackerRank/HackerRank_BTN2.PNG?raw=true)
 
 **Sample Output**
 
@@ -41,7 +41,7 @@ Write a query to find the node type of *Binary Tree* ordered by the value of the
 
 The *Binary Tree* below illustrates the sample:
 
-![HackerRank_BTN3.PNG](https://github.com/hoon-923/hoon-923.github.io/blob/master/_images/HackerRank_BTN3.PNG?raw=true)
+![HackerRank_BTN3.PNG](https://github.com/hoon-923/hoon-923.github.io/blob/main/_images/SQL/HackerRank/HackerRank_BTN3.PNG?raw=true)
 
 ---
 
