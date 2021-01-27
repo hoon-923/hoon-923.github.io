@@ -81,7 +81,7 @@ INSERT INTO team_table (Team, League, Standings) VALUES ('Marseille', 'League 1'
 
 ~~~sql
 SELECT P.Name, P.Team, T.league
-FROM player_table AS T
+FROM player_table AS P
 INNER JOIN team_table AS T
 ON P.Team = T.Team;
 ~~~
@@ -104,7 +104,7 @@ ON P.Team = T.Team;
 
 ~~~sql
 SELECT P.Name, P.Team, T.league
-FROM player_table AS T
+FROM player_table AS P
 LEFT JOIN team_table AS T
 ON P.Team = T.Team;
 ~~~
@@ -113,7 +113,7 @@ ON P.Team = T.Team;
 
 ~~~sql
 SELECT P.Name, P.Team, T.league
-FROM player_table AS T
+FROM player_table AS P
 RIGHT JOIN team_table AS T
 ON P.Team = T.Team;
 ~~~
