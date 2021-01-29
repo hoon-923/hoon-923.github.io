@@ -69,7 +69,7 @@ $Predicted = {88+76+56 \over 3}=73.3$ 인 평균이고, 이 값은 결국 위의
 
 Step 2의 첫 부분은 다음과 같습니다.
 
-$Compute\ r_{im} = -\left[{\partial L(y_i,F(x_i)) \over \partial F(x_i)}\right]_{F(x)=F_{m-1}(x)}\ for\ i = 1,.....,n$
+Compute $r_{im} = -\left[{\partial L(y_i,F(x_i)) \over \partial F(x_i)}\right]_{F(x)=F_{m-1}(x)}$ for  $i = 1,.....,n$
 
 매우 복잡해보이지만 사실 우변의 마이너스를 제외한 부분은 이미 미분값을 계산한 $-(Observed-Predicted)$ 과 동일 합니다. 앞에 $-1$을 곱해주면서 $-$ 가 사라진 $(Observed-Predicted)$ 만 남게 됩니다. 결과적으로 저 복잡해보이는 우변은 결국 Residual 입니다. $m=1$인 경우에 대해 설명하고 있기 때문에 $F(x)=F_{m-1}(x)$ 에서 $F_{m-1}(x)$ 은 $F_0(x)$ 이 되어 $73.3$을 대입합니다.
 
