@@ -9,7 +9,7 @@ use_math: true
 
 이번 포스트는 [StatQuest with Josh Starmer: Gradient Boost Part 1 (of 4): Regression Main Ideas](https://www.youtube.com/watch?v=3CC4N4z3GJc&list=PLblh5JKOoLUJjeXUvUE0maghNuY2_5fY6) 영상을 보고 정리하였다.
 
-최근 데이터분석시 최종 모델링으로 부스팅 기법 중 하나인 *LightGBM* 을 채택한적이 있다. 이 모델의 원리를 자세히 알고 싶어 영상을 찾아 보게 되었다.
+최근 데이터분석시 최종 모델링으로 *LightGBM*과 *CatBoost* 앙상블을 채택한적이 있다. 이 중 *LightGBM* 의 바탕이 되는 *GBM* 에 대해 정리하기 위해 본 영상을 시청 후 정리하였다. 
 
 ----
 
