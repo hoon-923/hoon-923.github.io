@@ -47,7 +47,7 @@ test set에서 두 모델(Linear Regression, 구불구불한 모델)에 대해 �
 
 아쉽게도 Bias and Variance 유튜브 영상에 둘의 tradeoff 관계에 대한 언급이 전혀 없어서 이에 대해 다른 분의 티스토리 블로그 글을 참고해 정리했습니다.
 
-$D=\{(x_1,t_1),(x_2,t_2),...,(x_N,t_N)\}$ 
+$D=[(x_1,t_1),(x_2,t_2),...,(x_N,t_N)]$ 
 
 위와 같은 데이터셋이 주어지면 이 데이터를 완벽히 표현하는 $f$ 를 찾는 것이 모델 학습이 목적이다.
 
@@ -55,23 +55,23 @@ $t=f(X) + \varepsilon$
 
 위의 식에서 $t$ 는 target, $X$ 는 데이터, $\varepsilon$ 는 noise 이다. 여기서 $\varepsilon$ 는 평균이 $0$ 이고 분산이 $\sigma^2$ 인 정규분포를 따릅니다. 여기서 loss function으로 MSE(mean squared error) 를 이용하면 loss의 기댓값은 다음과 같이 bias, variance, noise로 분해가 됩니다. 여기서 $y$ 는 학습시키고자 하는 모델이다.
 
-$E\{(t-y)^2\} = E\{(t-f+f-y)^2\}$
+$E[(t-y)^2] = E[(t-f+f-y)^2]$
 
-$= E\{(t-f)^2\} + E\{(f-y)^2\} + 2E\{(f-y)(t-f)\}$
+$= E[(t-f)^2] + E[(f-y)^2] + 2E[(f-y)(t-f)]$
 
-$= E\{\varepsilon^2\} + E\{(f-y)^2\}$
+$= E[\varepsilon^2] + E[(f-y)^2]$
 
-$= E\{(f-E\{y\}+E\{y\}-y)^2\} + E\{\varepsilon^2\}$
+$= E[(f-E[y]+E[y]-y)^2] + E[\varepsilon^2]$
 
-$= E\{(f-E\{y\})^2\} + E\{(E\{y\}-y)^2\} + E\{\varepsilon^2\}$
+$= E[(f-E[y])^2] + E[(E[y]-y)^2] + E[\varepsilon^2]$
 
-최종 결과에서 $E\{(f-E\{y\})^2\}$ 는 $bias^2$, $E\{(E\{y\}-y)^2\}$ 는 $variance$, $E\{\varepsilon^2\}$ 는 $noise$ 이다.
+최종 결과에서 $E[(f-E[y])^2]$ 는 $bias^2$, $E[(E[y]-y)^2]$ 는 $variance$, $E[\varepsilon^2]$ 는 $noise$ 이다.
 
 $noise$ 는 $y$ 와 독립이기 때문에 최소화 하는것이 불가능하고 결국 $bias$ 와 $variance$ 를 조절해 모델의 loss를 최소화 해야 합니다.
 
-위의 식을 보면 $bias$ 를 최소화하기 위해 $f=E\{y\}$ 가 되도록 모델을 학습 시키면 $variance$ 항은 $E\{(f-y)^2\} = E\{\varepsilon^2\}$ 가 됩니다. 
+위의 식을 보면 $bias$ 를 최소화하기 위해 $f=E[y]$ 가 되도록 모델을 학습 시키면 $variance$ 항은 $E[(f-y)^2] = E[\varepsilon^2]$ 가 됩니다. 
 
-반대로 $variance$ 를 최소화 하기 위해 $y$ 가 입력 데이터와 상관없이 상수 $c$ 만을 반환하게 되면 $E\{(E\{y\}-y)^2\} = E\{(c-c)^2\} = 0$ 이 되지만, $bias$ 가 증가합니다.
+반대로 $variance$ 를 최소화 하기 위해 $y$ 가 입력 데이터와 상관없이 상수 $c$ 만을 반환하게 되면 $E[(E[y]-y)^2] = E[(c-c)^2] = 0$ 이 되지만, $bias$ 가 증가합니다.
 
 이처럼 bias와 variance은 서로 tradeoff 관계임을 알 수 있습니다. 
 
