@@ -15,16 +15,7 @@ use_math: true
 
 튜토리얼 초반부에 여러 Tensor의 자료형들이 나와서 이를 표로 나타냈습니다.
 
-| Data type                | dtype                             | CPU tensor           |
-| ------------------------ | --------------------------------- | -------------------- |
-| 32-bit floating point    | `torch.float32` or `torch.float`  | `torch.FloatTensor`  |
-| 64-bit floating point    | `torch.float64` or `torch.double` | `torch.DoubleTensor` |
-| 16-bit floating point    | `torch.float16` or `torch.half`   | `torch.HalfTensor`   |
-| 8-bit integer (unsigned) | `torch.uint8`                     | `torch.ByteTensor`   |
-| 8-bit integer (signed)   | `torch.int8`                      | `torch.CharTensor`   |
-| 16-bit integer (signed)  | `torch.int16` or `torch.short`    | `torch.ShortTensor`  |
-| 32-bit integer (signed)  | `torch.int32` or `torch.int`      | `torch.IntTensor`    |
-| 64-bit integer (signed)  | `torch.int64` or `torch.long`     | `torch.LongTensor`   |
+![tensor_type.PNG](https://github.com/hoon-923/hoon-923.github.io/blob/main/_images/%EB%94%A5%EB%9F%AC%EB%8B%9D/pytorch_tutorials/tensor_type.PNG?raw=true)
 
 메모리의 여유에 따라 데이터 자체의 유효 숫자를 선택하면 됩니다. 특별한 설명이 없으면 default는 `torch.FloatTensor` 입니다.
 
@@ -66,6 +57,8 @@ torch.add(x, y, out=result)
 y.add_(x) # 4, in-place 방식
 ~~~
 
+
+
 Tensor의 크기(size) 또는 모양(shape)를 변경하고 싶으면 `torch.view` 사용
 
 ~~~python
@@ -74,6 +67,8 @@ y = x.view(16)
 z = x.view(-1, 8)  # -1은 다른 차원에서 유추
 print(x.size(), y.size(), z.size())
 ~~~
+
+
 
 실행 결과
 
