@@ -55,23 +55,23 @@ $t=f(X) + \varepsilon$
 
 위의 식에서 $t$ 는 target, $X$ 는 데이터, $\varepsilon$ 는 noise 이다. 여기서 $\varepsilon$ 는 평균이 $0$ 이고 분산이 $\sigma^2$ 인 정규분포를 따릅니다. 여기서 loss function으로 MSE(mean squared error) 를 이용하면 loss의 기댓값은 다음과 같이 bias, variance, noise로 분해가 됩니다. 여기서 $y$ 는 학습시키고자 하는 모델이다.
 
-$E\left\{(t-y)^2\right\} = E\left\{(t-f+f-y)^2\right\}$
+$E\{(t-y)^2\} = E\{(t-f+f-y)^2\}$
 
-$= E\left\{(t-f)^2\right\} + E\left\{(f-y)^2\right\} + 2E\left\{(f-y)(t-f)\right\}$
+$= E\{(t-f)^2\} + E\{(f-y)^2\} + 2E\{(f-y)(t-f)\}$
 
-$= E\left\{\varepsilon^2\right\} + E\left\{(f-y)^2\right\}$
+$= E\{\varepsilon^2\} + E\{(f-y)^2\}$
 
-$= E\left\{(f-E\left\{y\right\}+E\left\{y\right\}-y)^2\right\} + E\left\{\varepsilon^2\right\}$
+$= E\{(f-E\{y\}+E\{y\}-y)^2\} + E\{\varepsilon^2\}$
 
-$= E\left\{(f-E\left\{y\right\})^2\right\} + E\left\{(E\left\{y\right\}-y)^2\right\} + E\left\{\varepsilon^2\right\}$
+$= E\{(f-E\{y\})^2\} + E\{(E\{y\}-y)^2\} + E\{\varepsilon^2\}$
 
-최종 결과에서 $E\left\{(f-E\left\{y\right\})^2\right\}$ 는 $bias^2$, $E\left\{(E\left\{y\right\}-y)^2\right\}$ 는 $variance$, $E\left\{\varepsilon^2\right\}$ 는 $noise$ 이다.
+최종 결과에서 $E\{(f-E\{y\})^2\}$ 는 $bias^2$, $E\{(E\{y\}-y)^2\}$ 는 $variance$, $E\{\varepsilon^2\}$ 는 $noise$ 이다.
 
 $noise$ 는 $y$ 와 독립이기 때문에 최소화 하는것이 불가능하고 결국 $bias$ 와 $variance$ 를 조절해 모델의 loss를 최소화 해야 합니다.
 
-위의 식을 보면 $bias$ 를 최소화하기 위해 $f=E\left\{y\right\}$ 가 되도록 모델을 학습 시키면 $variance$ 항은 $E\left\{(f-y)^2\right\} = E\left\{\varepsilon^2\right\}$ 가 됩니다. 
+위의 식을 보면 $bias$ 를 최소화하기 위해 $f=E\left\{y\right\}$ 가 되도록 모델을 학습 시키면 $variance$ 항은 $E\{(f-y)^2\} = E\{\varepsilon^2\}$ 가 됩니다. 
 
-반대로 $variance$ 를 최소화 하기 위해 $y$ 가 입력 데이터와 상관없이 상수 $c$ 만을 반환하게 되면 $E\left\{(E\left\{y\right\}-y)^2\right\} = E\left\{(c-c)^2\right\} = 0$ 이 되지만, $bias$ 가 증가합니다.
+반대로 $variance$ 를 최소화 하기 위해 $y$ 가 입력 데이터와 상관없이 상수 $c$ 만을 반환하게 되면 $E\{(E\{y\}-y)^2\} = E\{(c-c)^2\} = 0$ 이 되지만, $bias$ 가 증가합니다.
 
 이처럼 bias와 variance은 서로 tradeoff 관계임을 알 수 있습니다. 
 
