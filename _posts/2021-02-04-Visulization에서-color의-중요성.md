@@ -94,7 +94,7 @@ Sequential palettes 는 다음과 같이 하나의 변수내에서 대소 비교
 
 
 
-Discrete palettes 와 Continous palettes 중 시각화의 목적에 맞게 사용하는 것이 
+Discrete palettes 와 Continous palettes 중 시각화의 목적에 맞게 사용하는 것이 바람직합니다.
 
 ----
 
