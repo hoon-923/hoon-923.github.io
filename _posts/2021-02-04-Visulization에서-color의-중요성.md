@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Visulization에서 color의 중요성"
+title:  "Visualization에서 color의 중요성"
 date:   2021-02-04 22:25:45
 author: Hoon
 categories: Visualization
@@ -43,7 +43,7 @@ pie chart의 경우에도 너무 조각이 작아지면서 많아지면 그 조�
 
 ![moveing_average_lineplot.PNG](https://github.com/hoon-923/hoon-923.github.io/blob/main/_images/Visualization/Visualization_color/moveing_average_lineplot.PNG?raw=true)
 
-위의 그래프를 보면 5월동안 일일 기온 linplot과 1주일을 기준으로 한 이동평균선 lineplot을 동시에 그렸습니다. 이렇듯 서로 연관이 있는 두 항목을 동시에 시각화할 때는 색깔의 차이가 아닌 밝기의 차이를 이용해 그려주면 더욱 효과적인 시각화입니다. 여기서 주의해야할 점은 둘의 밝기가 너무 많이 차이가 나면 안됩니다. 자칫 잘못하면 진한 색이 더욱 중요하다라는 인식을 줄 수 있기 때문입니다.
+위의 그래프를 보면 5월동안 일일 기온 lineplot과 1주일을 기준으로 한 이동평균선 lineplot을 동시에 그렸습니다. 이렇듯 서로 연관이 있는 두 항목을 동시에 시각화할 때는 색깔의 차이가 아닌 밝기의 차이를 이용해 그려주면 더욱 효과적인 시각화입니다. 여기서 주의해야할 점은 둘의 밝기가 너무 많이 차이가 나면 안됩니다. 자칫 잘못하면 진한 색이 더욱 중요하다라는 인식을 줄 수 있기 때문입니다.
 
 #### 1-2. Sequential palettes vs Diverging palettes
 
