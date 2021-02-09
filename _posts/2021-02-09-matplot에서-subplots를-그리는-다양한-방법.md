@@ -81,6 +81,8 @@ plt.tight_layout()
 plt.show()
 ~~~
 
+![gridspec_1.PNG](https://github.com/hoon-923/hoon-923.github.io/blob/main/_images/Visualization/subplots/gridspec_1.PNG?raw=true)
+
 다음은 `gridspec`과 `add_subplots`를 이용해 하나의 jointplot이 아닌 두 개의 jointplot을 동시에 시각화 한 예시 입니다.
 
 ~~~python
