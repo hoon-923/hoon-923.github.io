@@ -113,15 +113,15 @@ for name,param in net.named_parameters():
 ~~~python
 10
 conv1.weight 	 torch.Size([6, 1, 3, 3])
-conv1.bias 	 	 torch.Size([6])
+conv1.bias 	 torch.Size([6])
 conv2.weight 	 torch.Size([16, 6, 3, 3])
-conv2.bias 	 	 torch.Size([16])
-fc1.weight 	 	 torch.Size([120, 576])
-fc1.bias 	 	 torch.Size([120])
-fc2.weight 	 	 torch.Size([84, 120])
-fc2.bias 	 	 torch.Size([84])
-fc3.weight 	 	 torch.Size([10, 84])
-fc3.bias 	 	 torch.Size([10])
+conv2.bias 	 torch.Size([16])
+fc1.weight 	 torch.Size([120, 576])
+fc1.bias 	 torch.Size([120])
+fc2.weight 	 torch.Size([84, 120])
+fc2.bias 	 torch.Size([84])
+fc3.weight 	 torch.Size([10, 84])
+fc3.bias 	 torch.Size([10])
 ~~~
 
 여기서 `params`의 값들을 직접 확인해보면 위의 `torch.size()`에 대응하는 tensor들이 무작위 값들로 채워져 있다.
