@@ -315,6 +315,7 @@ Accuracy of truck : 48 %
 ~~~python
 net = net.to('cuda') # model을 GPU에 올리는 과정
 
+!pip install torchsummary
 from torchsummary import summary
 
 summary(net, (3, 32, 32))
